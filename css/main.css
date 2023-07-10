@@ -1,0 +1,94 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wrapper {
+    margin: 0 auto;
+}
+
+.headwrapper {
+    background: rgb(107,0,144);
+    background: linear-gradient(90deg, rgba(107,0,144,1) 19%, rgba(121,9,106,1) 56%, rgba(199,0,255,1) 100%);
+    line-height: 50px;
+    border-bottom: 2px solid lightgray;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between; 
+    padding-right: 20px;
+
+    }
+
+.sitename {
+    padding-left: 10px;
+    min-width: 300px;
+}
+
+.create {
+    padding-left: 20px;
+    cursor: pointer;
+}
+.create:hover {
+    
+    text-shadow: 1px 3px 5px #b960d2;
+}
+.searchzonewrapper{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+/* .searchzonewrapper-form{
+    min-width: 300px;
+} */
+.searchfield {
+    width: 150px;;
+    height: 35px;
+    padding: 5px 10px;
+    margin: 10px 8px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    -webkit-transition: width 0.5s ease-in-out;
+    transition: width 0.5s ease-in-out;  
+}
+
+.searchfield:focus {
+    width: 300px;}
+
+   
+.workspace {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.managezone {
+    width: 250px;
+    min-width: 250px;
+}
+
+h4 {
+    text-align: center;
+}
+.switchwrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;     /* Простір навколо блоків */
+    align-items: center;                /* Вирівнювання по вертикалі */
+}
+.ta-center {
+    text-align: center;
+}
+
+.displayzone {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.d-f{
+    display: inline;
+}
+.logo-title:hover{
+    cursor: pointer;
+    text-shadow: 0px 5px 0px #ffffff;
+}
